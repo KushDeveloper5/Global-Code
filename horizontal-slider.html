@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/tailwind.js"></script>
+    <style>
+        .services-pin-section {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Horizontal Track */
+        .horizontal-track {
+            display: flex;
+            align-items: stretch;
+            gap: 24px;
+            width: max-content;
+            padding: 0 40px 0 20px;
+            will-change: transform;
+        }
+
+        /* Individual Card */
+        .service-card {
+            flex: 0 0 440px;
+            width: 440px;
+            height: 440px;
+            border-radius: 24px;
+            background: #E8F3FC;
+            overflow: hidden;
+        }
+    /* Tablet */
+    @media (max-width: 768px) {
+        .horizontal-track {
+            padding: 0 20px;
+        }
+        .service-card {
+            width: 300px;
+            flex-basis: 300px;
+            height: 420px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div style="height: 1000px;"></div>
+    <section class="services-pin-section">
+        <div class="horizontal-track">
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="h-[440px] bg-gradient-to-b from-[#E8F3FC] to-[#F1F7FC] border border-[#040680]/5 rounded-[24px] p-8 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl hover:shadow-[#040680]/5 transition-all duration-300 hover:-translate-y-1.5 group">
+                    <div
+                        class="w-full h-48 flex items-center justify-center relative z-10" >
+                        <div class="relative w-48 h-48 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-1">
+                        <img alt="Website Development" loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            src="/services/Ecommerce web page-rafiki.svg?dpl=dpl_23oqB19TmLmH4BGghwYddiTrFiF9" />
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-auto relative z-10">
+                        <h3 class="text-xl sm:text-2xl font-heading font-black text-[#040680] tracking-tight">
+                            Website Development
+                        </h3>
+                        <div class="flex items-end justify-between gap-4 w-full">
+                            <p class="text-xs sm:text-sm text-[#040680]/70 leading-relaxed font-sans font-light max-w-[75%]">
+                                High-performance websites with modern UI, blazing-fast speed,
+                                and robust search engine optimization.
+                            </p>
+                            <a
+                                class="w-11 h-11 rounded-full bg-white border border-gray-100 flex items-center justify-center text-[#3B2DE6] hover:bg-[#3B2DE6] hover:text-white transition-all duration-300 shadow-md hover:shadow-indigo-500/20 shrink-0"
+                                href="/services/website" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-4 h-4" aria-hidden="true">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<div style="height: 1000px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            gsap.registerPlugin(ScrollTrigger);
+
+            const track = document.querySelector(".horizontal-track");
+
+            if (!track) return;
+
+            gsap.to(track, {
+                x: () => -(track.scrollWidth - window.innerWidth + 0),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".services-pin-section",
+                    start: "top top",
+                    end: () => "+=" + (track.scrollWidth - window.innerWidth + 0),
+                    pin: true,
+                    scrub: 1,
+                    anticipatePin: 1,
+                    invalidateOnRefresh: true
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>
