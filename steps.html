@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/tailwind.js"></script>
+    <style>
+        .timeline-line{
+            position:absolute;
+            left:0;
+            top:70px;
+            width:100%;
+            z-index:0;
+        }
+
+        .step{
+            position:relative;
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-5 relative">
+
+            <!-- Timeline -->
+            <svg class="hidden lg:block absolute left-[30px] top-0 w-full h-[260px]"
+                viewBox="0 0 1300 300" preserveAspectRatio="none">
+
+                <path d="M50 220 Q600 -40 1150 220" fill="none" stroke="#ddd" stroke-width="2" stroke-dasharray="8 8"/>
+            </svg>
+
+            <div class="relative z-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-10 text-center">
+
+            <!-- STEP -->
+           <div class="mt-0 lg:mt-28">
+                <h5 class="text-blue-600 font-bold mb-4">STEP 1</h5>
+
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-orange-50 shadow flex items-center justify-center border border-orange-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" class="w-10">
+                </div>
+
+                <h4 class="mt-6 font-semibold text-lg">
+                    Website Audit & Analysis
+                </h4>
+            </div>
+
+            <!-- STEP -->
+             <div class="mt-0 lg:mt-8">
+                <h5 class="text-blue-600 font-bold mb-4">STEP 2</h5>
+
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-blue-50 shadow flex items-center justify-center border border-blue-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920349.png" class="w-10">
+                </div>
+
+                <h4 class="mt-6 font-semibold text-lg">
+                    Keyword Research & Strategy
+                </h4>
+            </div>
+
+            <!-- STEP -->
+            <div class="">
+                <h5 class="text-blue-600 font-bold mb-4">STEP 3</h5>
+
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-cyan-50 shadow flex items-center justify-center border border-cyan-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" class="w-10">
+                </div>
+
+                <h4 class="mt-6 font-semibold text-lg">
+                    On-Page & Technical Optimization
+                </h4>
+            </div>
+
+            <!-- STEP -->
+            <div class="">
+                <h5 class="text-blue-600 font-bold mb-4">STEP 4</h5>
+
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-sky-50 shadow flex items-center justify-center border border-sky-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" class="w-10">
+                </div>
+
+                <h4 class="mt-6 font-semibold text-lg">
+                    Content & Link Building
+                </h4>
+            </div>
+
+            <!-- STEP -->
+            <div class="mt-0 lg:mt-8">
+                <h5 class="text-blue-600 font-bold mb-4">STEP 5</h5>
+
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-pink-50 shadow flex items-center justify-center border border-pink-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" class="w-10">
+                </div>
+
+                <h4 class="mt-6 font-semibold text-lg">
+                    Monitoring & Performance Tracking
+                </h4>
+            </div>
+
+            <!-- STEP -->
+            <div class="mt-0 lg:mt-28">
+                <h5 class="text-blue-600 font-bold mb-4">STEP 6</h5>
+
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-purple-50 shadow flex items-center justify-center border border-purple-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2092/2092063.png" class="w-10">
+                </div>
+
+                <h4 class="mt-6 font-semibold text-lg">
+                    Continuous Optimization
+                </h4>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
