@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0b0f15;
+    font-family:Inter,sans-serif;
+}
+
+.cta-wrapper{
+    display:inline-block;
+}
+
+/* ================= BUTTON ================= */
+
+.payment-btn{
+    position:relative;
+    display:flex;
+    align-items:center;
+    width:320px;
+    height:70px;
+    padding-left:34px;
+    text-decoration:none;
+    color:#fff;
+    border-radius:999px;
+    overflow:visible;
+    background:linear-gradient(180deg,#343B45 0%,#24282F 100%);
+    border:1px solid rgba(255,255,255,.12);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.10),
+        inset 0 -1px 0 rgba(255,255,255,.05),
+        0 15px 35px rgba(0,0,0,.35);
+    cursor:pointer;
+    transition:
+        background .4s,
+        box-shadow .4s,
+        transform .4s;
+}
+
+.payment-btn::before{
+    content:"";
+    position:absolute;
+    inset:2px;
+    border-radius:999px;
+    background:linear-gradient(
+        180deg,
+        rgba(255,255,255,.05),
+        rgba(255,255,255,.01)
+    );
+    pointer-events:none;
+}
+
+.text{
+    position:relative;
+    z-index:5;
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:-0.4px;
+}
+
+/* ================= ARROW ================= */
+
+.arrow-container{
+    position:absolute;
+    top:50%;
+    right:-78px;
+    transform:translateY(-50%);
+    width:70px;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:transform .45s cubic-bezier(.22,1,.36,1);
+}
+
+.arrow-circle{
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    background:linear-gradient(180deg,#343B45,#24282F);
+    border:1px solid rgba(255,255,255,.12);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.10),
+        0 12px 25px rgba(0,0,0,.35);
+    transition:
+        opacity .3s,
+        transform .3s;
+}
+
+.arrow{
+    position:relative;
+    z-index:5;
+    color:#fff;
+    transition:transform .35s cubic-bezier(.22,1,.36,1);
+}
+
+/* ================= HOVER ================= */
+
+.payment-btn:hover{
+    background:linear-gradient(180deg,#3C434D,#2C3139);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.12),
+        0 22px 40px rgba(0,0,0,.4);
+}
+
+.payment-btn:hover .arrow-container{
+    transform:translate(-78px,-50%);
+}
+
+.payment-btn:hover .arrow-circle{
+    opacity:0;
+    transform:scale(.7);
+}
+.payment-btn:hover .arrow{
+    transform:translateX(16px);
+}
+    </style>
+</head>
+<body>
+    <div class="cta-wrapper">
+        <a href="#" class="payment-btn">
+            <span class="text">Get a quote</span>
+            <span class="arrow-container">
+                <span class="arrow-circle"></span>
+                <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <path d="M7 17L17 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M10 7H17V14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+        </a>
+    </div>
+</body>
+</html>
